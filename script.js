@@ -1,5 +1,3 @@
-document.getElementById('contact-form').addEventListener('submit', function(event) {
-    event.preventDefault();
-    alert('Спасибо за ваше сообщение!');
-    this.reset();
-});
+function showAlert(destination) {
+    alert('Вы выбрали ' + destination + '! Узнайте больше на нашем сайте.');
+}
