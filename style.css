@@ -41,8 +41,10 @@ main {
 }
 
 .destination-image {
-    width: 100%;
-    border-radius: 10px;
+    width: 100%; /* Занимает всю ширину контейнера */
+    height: 200px; /* Фиксированная высота */
+    object-fit: cover; /* Сохранение пропорций и заполнение контейнера */
+    border-radius: 10px; /* Закругление углов */
 }
 
 footer {
@@ -51,3 +53,5 @@ footer {
     background-color: #4CAF50;
     color: white;
 }
+
+Найти еще
