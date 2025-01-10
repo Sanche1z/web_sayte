@@ -2,25 +2,25 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #e0f7fa; /* Светлый голубой фон */
-    color: #333; /* Темный текст для контраста */
+    background-color: #e0f7fa ; /* Светлый голубой фон */
+    color: #333 ; /* Темный текст для контраста */
 }
 
 header {
-    background-color: #00796b; /* Темный зеленый цвет */
+    background-color: #00796b ; /* Темный зеленый цвет */
     color: white;
-    padding: 20 px 0;
-    text-align: center;
+    padding: 20 px 0 ;
+    text-align: center ;
 }
 
 nav ul {
-    list-style-type: none;
-    padding: 0;
+    list-style-type: none ;
+    padding: 0 ;
 }
 
 nav ul li {
-    display: inline;
-    margin: 0 15 px;
+    display: inline ;
+    margin: 0 15 px ;
 }
 
 nav a {
@@ -33,41 +33,41 @@ main {
 }
 
 .destination {
-    border: 2 px solid #00796b; /* Цвет рамки соответствует заголовку */
-    border-radius: 10 px;
-    margin: 20 px 0;
-    padding: 10 px;
-    background-color: #ffffff; /* Белый фон для блоков направлений */
-    box-shadow: 0 2 px 10 px rgba (0, 0, 0, 0.1);
+    border: 2 px solid #00796b ; /* Цвет рамки соответствует заголовку */
+    border-radius: 10 px ;
+    margin: 20 px 0 ;
+    padding: 10 px ;
+    background-color: #ffffff ; /* Белый фон для блоков направлений */
+    box-shadow: 0 2 px 10 px rgba (0, 0, 0, 0.1) ;
 }
 
 .destination-image {
-    width: 300 px; /* Фиксированная ширина */
-    height: 200 px; /* Фиксированная высота */
-    object-fit: cover; /* Заполнение контейнера без искажения */
-    border-radius: 10 px; /* Закругление углов */
+    width: 300 px ; /* Фиксированная ширина */
+    height: 200 px ; /* Фиксированная высота */
+    object-fit: cover ; /* Заполнение контейнера без искажения */
+    border-radius: 10 px ; /* Закругление углов */
 }
 
 
 footer {
-    text-align: center;
-    padding: 20 px 0;
-    background-color: #00796b; /* Цвет подвала соответствует заголовку */
-    color: white;
+    text-align: center ;
+    padding: 20 px 0 ;
+    background-color: #00796b ; /* Цвет подвала соответствует заголовку */
+    color: white ;
 }
 
 /* Добавление стилей для кнопок */
 button {
-    background-color: #00796b; /* Цвет кнопки */
-    color: white;
-    border: none;
-    padding: 10 px 20 px;
-    border-radius: 5 px;
-    cursor: pointer;
+    background-color: #00796b ; /* Цвет кнопки */
+    color: white ;
+    border: none ;
+    padding: 10 px 20 px ;
+    border-radius: 5 px ;
+    cursor: pointer ;
 }
 
 button:hover {
-    background-color: #004d40; /* Темнее при наведении */
+    background-color: #004d40 ; /* Темнее при наведении */
 }
 
 /* Стили для заголовков */
