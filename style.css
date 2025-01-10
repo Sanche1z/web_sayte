@@ -9,20 +9,20 @@ body {
 }
 
 header {
-    background-color: #00796b ; /* Темный зеленый цвет */
-    color: white;
+    background: rgba(255, 99, 71, 0.9); /* Полупрозрачный фон для заголовка */
+    color: #ffffff;
     padding: 20px 0;
-    text-align: center ;
+    text-align: center;
 }
 
 nav ul {
-    list-style-type: none ;
-    padding: 0 ;
+    list-style-type: none;
+    padding: 0;
 }
 
 nav ul li {
-    display: inline ;
-    margin: 0 15 px ;
+    display: inline;
+    margin: 0 15px;
 }
 
 nav a {
@@ -31,48 +31,65 @@ nav a {
 }
 
 main {
-    padding: 20 px;
+    padding: 20px;
+    flex: 1; /* Позволяет основному контенту занимать доступное пространство */
+    max-width: 1200px; /* Ограничение ширины для лучшего выравнивания */
+    margin: 0 auto; /* Центрируем основной контент */
 }
 
-destination {
-    border: 2 px solid #00796b ; /* Цвет рамки соответствует заголовку */
-    border-radius: 10 px ;
-    margin: 20 px 0 ;
-    padding: 10 px ;
-    background-color: #ffffff ; /* Белый фон для блоков направлений */
-    box-shadow: 0 2 px 10 px rgba (0, 0, 0, 0.1) ;
+h1, h2 {
+    color: #333;
+    text-align: center; /* Центрируем заголовки */
 }
 
-destination-image {
-    width: 300 px ; /* Фиксированная ширина */
-    height: 200 px ; /* Фиксированная высота */
-    object-fit: cover ; /* Заполнение контейнера без искажения */
-    border-radius: 10 px ; /* Закругление углов */
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center; /* Центрируем текст */
 }
 
-
-footer {
-    text-align: center ;
-    padding: 20 px 0 ;
-    background-color: #00796b ; /* Цвет подвала соответствует заголовку */
-    color: white ;
+ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex; /* Используем flexbox для выравнивания изображений и текста */
+    flex-wrap: wrap; /* Перенос элементов на новую строку при необходимости */
+    justify-content: center; /* Центрируем элементы */
 }
 
-/* Добавление стилей для кнопок */
+.food-image {
+    width: 100px;  
+    height: 100px; 
+    object-fit: cover; 
+    margin-right: 10px; 
+}
+
+li {
+    display: flex; 
+    align-items: center; 
+    margin-bottom: 15px; 
+    flex-direction: column; /* Вертикальное выравнивание изображений и текста */
+    text-align: center; /* Центрируем текст под изображением */
+}
+
 button {
-    background-color: #00796b ; /* Цвет кнопки */
-    color: white ;
-    border: none ;
-    padding: 10 px 20 px ;
-    border-radius: 5 px ;
-    cursor: pointer ;
+    background-color: #5bc0de;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    display: block; /* Делаем кнопку блочным элементом */
+    margin: 20px auto; /* Центрируем кнопку */
 }
 
 button:hover {
-    background-color: #004d40 ; /* Темнее при наведении */
+    background-color: #31b0d5;
 }
 
-/* Стили для заголовков */
-h1, h2, h3 {
-    color: #004d40; /* Темный зеленый цвет для заголовков */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: rgba(53, 66, 74, 0.9); /* Полупрозрачный фон для подвала */
+    color: #ffffff;
 }
