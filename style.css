@@ -9,7 +9,7 @@ body {
 }
 
 header {
-    background: rgba( (128, 128, 128,0.9); /* Полупрозрачный фон для заголовка */
+    background: rgba(128, 128, 128,0.9); /* Полупрозрачный фон для заголовка */
     color: #ffffff;
     padding: 20px 0;
     text-align: center;
