@@ -58,7 +58,7 @@ ul {
 
 .destination-image{
     width: 468px;  
-    height: 120px; 
+    height: 300px; 
     object-fit: cover; 
     margin-right: 10px; 
 }
