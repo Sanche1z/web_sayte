@@ -32,7 +32,7 @@ main {
     padding: 20 px;
 }
 
-.destination {
+destination {
     border: 2 px solid #00796b ; /* Цвет рамки соответствует заголовку */
     border-radius: 10 px ;
     margin: 20 px 0 ;
@@ -41,7 +41,7 @@ main {
     box-shadow: 0 2 px 10 px rgba (0, 0, 0, 0.1) ;
 }
 
-.destination-image {
+destination-image {
     width: 300 px ; /* Фиксированная ширина */
     height: 200 px ; /* Фиксированная высота */
     object-fit: cover ; /* Заполнение контейнера без искажения */
