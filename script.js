@@ -1,3 +1,3 @@
 function showAlert(destination) {
-    alert('Вы выбрали ' + destination + '! Узнайте больше на нашем сайте.');
+    alert('Ты зачем сюда нажал ? ');
 }
