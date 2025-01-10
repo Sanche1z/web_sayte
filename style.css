@@ -5,7 +5,7 @@ body {
     display: flex;
     flex-direction: column; /* Добавлено для вертикального выравнивания */
     min-height: 100vh; /* Занять всю высоту окна */
-    background: linear-gradient(to right, #ff7e5f, #feb47b); /* Градиент от розового к желтому */
+    background: linear-gradient(to right, #0052d4, #65c7f7); /* Градиент от синего к голубому */
 }
 
 header {
