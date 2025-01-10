@@ -2,8 +2,10 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #e0f7fa ; /* Светлый голубой фон */
-    color: #333 ; /* Темный текст для контраста */
+    display: flex;
+    flex-direction: column; /* Добавлено для вертикального выравнивания */
+    min-height: 100 vh; /* Занять всю высоту окна */
+    background: linear-gradient (to right, #ff7e5f, #feb47b); /* Градиент от розового к желтому */
 }
 
 header {
