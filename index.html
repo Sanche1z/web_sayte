@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Путешествия по миру</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Добро пожаловать в мир путешествий!</h1>
+        <nav>
+            <ul>
+                <li><a href="#destinations">Направления</a></li>
+                <li><a href="#about">О нас</a></li>
+                <li><a href="#contact">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="destinations">
+            <h2>Популярные направления</h2>
+            <div class="destination">
+                <h3>Париж</h3>
+                <p>Город любви и света.</p>
+            </div>
+            <div class="destination">
+                <h3>Токио</h3>
+                <p>Современный мегаполис с богатой культурой.</p>
+            </div>
+            <div class="destination">
+                <h3>Нью-Йорк</h3>
+                <p>Город, который никогда не спит.</p>
+            </div>
+        </section>
+
+        <section id="about">
+            <h2>О нас</h2>
+            <p>Мы - команда энтузиастов, которые любят путешествовать и делиться своими впечатлениями.</p>
+        </section>
+
+        <section id="contact">
+            <h2>Контакты</h2>
+            <form id="contact-form">
+                <label for="name">Имя:</label>
+                <input type="text" id="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" required>
+                
+                <label for="message">Сообщение:</label>
+                <textarea id="message" required></textarea>
+                
+                <button type="submit">Отправить</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Путешествия по миру</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
