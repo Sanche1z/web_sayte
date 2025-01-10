@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Путешествия по миру</title>
+    <title>Путешествия</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -23,45 +23,37 @@
             <h2>Популярные направления</h2>
             <div class="destination">
                 <img src="images/paris.jpg" alt="Париж" class="destination-image">
-                <h3>Париж</h3>
-                <p>Город любви и света.</p>
+                <h3>Париж, Франция</h3>
+                <p>Город любви и света. Обязательно посетите Эйфелеву башню и Лувр.</p>
+                <button onclick="showAlert('Париж')">Узнать больше</button>
+            </div>
+            <div class="destination">
+                <img src="images/new-york.jpg" alt="Нью-Йорк" class="destination-image">
+                <h3>Нью-Йорк, США</h3>
+                <p>Город, который никогда не спит. Обязательно посетите Центральный парк и Таймс-сквер.</p>
+                <button onclick="showAlert('Нью-Йорк')">Узнать больше</button>
             </div>
             <div class="destination">
                 <img src="images/tokyo.jpg" alt="Токио" class="destination-image">
-                <h3>Токио</h3>
-                <p>Современный мегаполис с богатой культурой.</p>
-            </div>
-            <div class="destination">
-                <img src="images/newyork.jpg" alt="Нью-Йорк" class="destination-image">
-                <h3>Нью-Йорк</h3>
-                <p>Город, который никогда не спит.</p>
+                <h3>Токио, Япония</h3>
+                <p>Современный мегаполис с уникальной культурой. Не пропустите храм Сэнсодзи.</p>
+                <button onclick="showAlert('Токио')">Узнать больше</button>
             </div>
         </section>
 
         <section id="about">
             <h2>О нас</h2>
-            <p>Мы - команда энтузиастов, которые любят путешествовать и делиться своими впечатлениями.</p>
+            <p>Мы - команда профессиональных гидов, готовых сделать ваше путешествие незабываемым!</p>
         </section>
 
         <section id="contact">
             <h2>Контакты</h2>
-            <form id="contact-form">
-                <label for="name">Имя:</label>
-                <input type="text" id="name" required>
-                
-                <label for="email">Email:</label>
-                <input type="email" id="email" required>
-                
-                <label for="message">Сообщение:</label>
-                <textarea id="message" required></textarea>
-                
-                <button type="submit">Отправить</button>
-            </form>
+            <p>Свяжитесь с нами по электронной почте: info@travel.com</p>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2023 Путешествия по миру</p>
+        <p>&copy; 2023 Путешествия. Все права защищены.</p>
     </footer>
 
     <script src="script.js"></script>
