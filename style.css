@@ -5,11 +5,11 @@ body {
     display: flex;
     flex-direction: column; /* Добавлено для вертикального выравнивания */
     min-height: 100vh; /* Занять всю высоту окна */
-    background: linear-gradient(to right, #0052d4, #65c7f7); /* Градиент от синего к голубому */
+    background: linear-gradient(to right, #50b88a, #a8e0d4); /* Градиент от изумрудного к светло-зеленому */
 }
 
 header {
-    background: rgba(255, 99, 71, 0.9); /* Полупрозрачный фон для заголовка */
+    background: rgba(100, 20, 94, 0.9); /* Полупрозрачный фон для заголовка */
     color: #ffffff;
     padding: 20px 0;
     text-align: center;
